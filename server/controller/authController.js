@@ -9,7 +9,7 @@ export const register = async (req,res)=>{
     if(!name || !email || !password){
         return res.status(400).json({
             success:false,
-            message:"Missing Details"
+            message:"Missing Detai"
         })
         
 
